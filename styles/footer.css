@@ -1,3 +1,8 @@
 .footer {
     font-family: var(--main-font-family);
+    padding: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 200;
+
 }
