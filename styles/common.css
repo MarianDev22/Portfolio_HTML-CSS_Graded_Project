@@ -3,7 +3,7 @@
   --main-brand-color: #2BA84A;
   --main-brand-color-light: #F2E94E;
   --secondary-brand-color: #7E6B8F;
-  --main-text-color: #000;
+  --main-text-color: #7E6B8F;
   --border-color: #4b5563;
   --main-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
@@ -15,4 +15,10 @@
     opacity: 1;
     font-size: 1rem;
     font-family: var(--main-font-family);
+}
+
+a.hidden {
+/*opacity: 0;*/
+/*visibility: hidden;*/
+display: none;
 }
