@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/components.css">
+    <link rel="stylesheet" href="./styles/about.css">
 </head>
 <body class="main-bg">
     <header class="header">
@@ -34,11 +35,11 @@
     </header>
     <main>
         <section class="banner">
-            <img class="profile_pic" src="./assets/MARIANA_MUNOZ_2.jpg" alt="profile picture">
+            
             <picture>
-                <source src="./assets/MARIANA_MUNOZ_2.jpg" media="(width > 768px)">
-                <source src="./assets/MARIANA_MUNOZ_200.jpg" media="(width < 768px)">
-                
+                <source srcset="./assets/MARIANA_MUNOZ_200.jpg" media="(max-width: 768px)">
+                <source srcset="./assets/MARIANA_MUNOZ_2.jpg" media="(max-width: 768px)">
+                <img class="profile_pic" src="./assets/MARIANA_MUNOZ_2.jpg" alt="profile picture">    
             </picture>
             
             <!--<div class="image"></div>-->

@@ -8,15 +8,14 @@
     gap: 1rem;
 
     .profile_pic {
-        background-image: url(../assets/MARIANA_MUNOZ_2.jpg);
         object-fit: cover;
-        background-position: center;
-        width: 600px;
-        height: 400px;
-        max-width: 200px;
+        width: 65vw;
+        height: 65vh;
+        max-width: 400px;
         border-radius: 50%;
         border: 0.7px solid #00d582;
-        margin-top: 1.5rem;
+        margin-top: 10rem;
+        aspect-ratio: 1/1;
         
     }
     /* Decided to use a tag for profile picture as it is part of the content and not just a bg
