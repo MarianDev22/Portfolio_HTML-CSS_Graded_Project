@@ -1,21 +1,42 @@
 .banner {
     height: 75vh;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    gap: 1rem;
 
+    .profile_pic {
+        background-image: url(../assets/MARIANA_MUNOZ_2.jpg);
+        object-fit: cover;
+        background-position: center;
+        width: 40vw;
+        height: 40vh;
+        max-width: 200px;
+        border-radius: 50%;
+        border: 0.7px solid #00d582;
+        margin-top: 1.5rem;
+        
+    }
+    /* Decided to use a tag for profile picture as it is part of the content and not just a bg
     .image {
         background-image: url(../assets/MARIANA_MUNOZ_2.jpg);
-        position: absolute;
-        top: 0;
+        background-size: cover;
+        background-position: center;
+        width: 30vw;
+        height: 30vh;
+        max-width: 200px;
+        border-radius: 50%;
+    } */
 
+    h1 {
+        text-align: center;
     }
 
     .description{
         text-align: center;
-        position: relative;
         padding:0 20px;
+        font-size: 1;
     }
 }

@@ -5,7 +5,7 @@
   --secondary-brand-color: #dadada;
   --main-text-color: #272726;
   --border-color: #dadada;
-  --main-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --main-font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
 }
 
@@ -13,7 +13,7 @@
     background-color: var(--bg-color);
     color: var(--main-text-color);
     opacity: 1;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: var(--main-font-family);
 }
 
@@ -21,4 +21,11 @@ a.hidden {
 /*opacity: 0;*/
 /*visibility: hidden;*/
 display: none;
+}
+
+@media screen and (width > 768px) {
+    a.hidden {
+        display: block;
+    }
+    
 }
