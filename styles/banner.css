@@ -11,8 +11,8 @@
         background-image: url(../assets/MARIANA_MUNOZ_2.jpg);
         object-fit: cover;
         background-position: center;
-        width: 40vw;
-        height: 40vh;
+        width: 600px;
+        height: 400px;
         max-width: 200px;
         border-radius: 50%;
         border: 0.7px solid #00d582;
@@ -32,9 +32,19 @@
 
     h1 {
         text-align: center;
+        padding: 0;
+
     }
 
-    .description{
+    p {
+        text-align: center;
+        font-style: italic;
+        font-size: 1.1em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .descr{
         text-align: center;
         padding:0 20px;
         font-size: 1;
