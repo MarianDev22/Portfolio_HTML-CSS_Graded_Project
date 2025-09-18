@@ -21,9 +21,18 @@
             padding: 0;
             display: flex;
             gap: 10px;
-            
+
         }
         
+        li.item a {
+            text-decoration: none;
+            color: var(--main-text-color);
+            transition: color 0.3s ease 0.05s ;
+            &:hover {
+                color: var(--main-brand-color);
+            }
+
+        }
     }
 
 }
