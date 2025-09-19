@@ -1,3 +1,107 @@
 .about{
     margin-top: 10rem;
+
+    h2 {
+        color: var(--main-brand-color-dark);
+        padding: 1em;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 1.15em;
+        padding: 1em;
+
+        
+    }
+
+    .skills {
+        margin-top: 5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h4 {
+        margin: 1.5em
+    }
+
+    .sk_html {
+        height: 20px;
+        width: 200px;
+        border: 1px solid var(--main-text-color);
+        border-radius: 5%;
+        margin-left: 1.5em;
+        background-color: var(--main-brand-color);
+        animation-name: sk_html;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+    }    
+    .sk_css {
+        height: 20px;
+        width: 200px;
+        border: 1px solid var(--main-text-color);
+        border-radius: 5%;
+        margin-left: 1.5em;
+        background-color: var(--main-brand-color);
+        animation-name: sk_css;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+    }
+    .sk_git {
+         height: 20px;
+        width: 200px;
+        border: 1px solid var(--main-text-color);
+        border-radius: 5%;
+        margin-left: 1.5em;
+        background-color: var(--main-brand-color);
+        animation-name: sk_git;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+    }
+    .sk_py {
+        height: 20px;
+        width: 200px;
+        border: 1px solid var(--main-text-color);
+        border-radius: 5%;
+        margin-left: 1.5em;
+        background-color: var(--main-brand-color);
+        animation-name: sk_py;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+     }
+    .sk_js {
+        height: 20px;
+        width: 200px;
+        border: 1px solid var(--main-text-color);
+        border-radius: 5%;
+        margin-left: 1.5em;
+        background-color: var(--main-brand-color);
+        animation-name: sk_js;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        margin-bottom: 1.5em;
+     }
+
+}
+
+@keyframes sk_html {
+    0% {width: 0;}
+    100%{width: 30%;}
+}
+@keyframes sk_css {
+    0% {width: 0;}
+    100%{width: 30%;}
+}
+@keyframes sk_git {
+    0% {width: 0;}
+    100%{width: 25%;}
+}
+@keyframes sk_py {
+    0% {width: 0;}
+    100%{width: 40%;}
+}
+@keyframes sk_js {
+    0% {width: 0;}
+    100%{width: 10%;}
 }
