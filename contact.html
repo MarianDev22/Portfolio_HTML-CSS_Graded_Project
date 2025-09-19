@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/components.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body class="main-bg">
+        <header class="header">
+        <img class="logo" src="./assets/Logo_ portfolio_web_site.png" alt="Portfolio site logo">
+        <nav class="nav">
+            <ul class="list">
+                <li class="item">
+                    <a class="btn hidden" href="./">Home</a>
+                </li>
+                <li class="item">
+                    <a class="btn hidden" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="btn hidden" href="contact.html">Contact</a>
+                </li>
+                <li class="item">
+                    <a class="btn hidden" href="projects.html">Projects</a>
+                </li>
+                <li class="item">
+                    <a class="btn hidden" href="./video.html">Video</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="card">
+        <h1>Contact</h1>
+         <form class="form" method="post" action="" novalidate>
+            <div class="form_input">
+            <label for="name">Name</label>
+            <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="off"
+            placeholder="write your name"
+            required
+            >
+            <div class="form_input">
+            <label for="lastname">Last Name</label>
+            <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            autocomplete="off"
+            placeholder="write your last name"
+            required
+            >
+            </div>
+        <div class="form_input">
+            <label for="phone">Your phone number</label>
+            <input
+            type="tel"
+            id="phone"
+            name="phone"
+            autocomplete="off"
+            placeholder="format 123-123-1234"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+            >
+        </div>
+
+        <fieldset>
+            <legend> How did you find this web site? </legend>
+            <label for="uni"> University </label>
+            <input type="radio" name="means" id="uni" value="university" checked>
+            <label for="keep">Keepcoding kick-off</label>
+            <input type="radio" name="means" id="keep" value="keepcoding">
+            <label for="school">School</label>
+            <input type="radio" name="means" id="school" value="school">
+            <label for="github">Git Hub</label>
+            <input type="radio" name="means" id="github" value="github">
+        </fieldset>
+
+        <div>
+            <label for="git_tag">GitHub Tag:</label>
+            <input
+             type="text"
+             name="git_tag"
+             id="git_tag"
+             pattern="^@[^\s]+"
+             placeholder="@username"
+             >
+        </div>
+
+        <div class="form_input">
+            <label for="msj">Mensaje</label>
+            <textarea class="textarea" name="msj" id="msj" placeholder="Write your message..." required maxlength="50"></textarea>
+        </div>
+
+        <div class="form_input">
+            <label for="newsletter">I want to get the Newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
+        </div>
+
+
+        <button class="btn secondary" type="reset">Reset</button>
+        <button class="btn" type="submit">Guardar </button>
+        </form>
+
+    </main>
+    
+</body>
+</html>
