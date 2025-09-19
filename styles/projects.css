@@ -1,0 +1,15 @@
+.cards {
+    /*border-radius: 4px;
+    max-width: 300px;*/
+    margin-top: 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.card {
+     background: radial-gradient(circle,rgba(218, 218, 218, 1) 0%, rgba(0, 213, 130, 0.45) 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}

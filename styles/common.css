@@ -5,6 +5,7 @@
   --secondary-brand-color: #dadada;
   --main-text-color: #272726;
   --border-color: #dadada;
+  --input-bg-color:#ecdaba;
   --main-font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
 }
@@ -18,8 +19,6 @@
 }
 
 a.hidden {
-/*opacity: 0;*/
-/*visibility: hidden;*/
 display: none;
 }
 
@@ -27,5 +26,4 @@ display: none;
     a.hidden {
         display: block;
     }
-    
 }
