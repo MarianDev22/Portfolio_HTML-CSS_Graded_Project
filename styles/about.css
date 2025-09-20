@@ -52,7 +52,7 @@
         animation-fill-mode: forwards;
     }
     .sk_git {
-         height: 20px;
+        height: 20px;
         width: 200px;
         border: 1px solid var(--main-text-color);
         border-radius: 5%;

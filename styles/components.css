@@ -11,3 +11,11 @@
     box-sizing: border-box;
 }
 
+
+
+
+@media screen and (hover:hover) {
+    btn:hover {
+        background-color: var(--main-brand-color);
+    }
+}

@@ -7,15 +7,21 @@
   --border-color: #dadada;
   --input-bg-color:#ecdaba;
   --main-font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .main-bg {
     background-color: var(--bg-color);
     color: var(--main-text-color);
     opacity: 1;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-family: var(--main-font-family);
+}
+
+.max-auto {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 768px;
 }
 
 a.hidden {
