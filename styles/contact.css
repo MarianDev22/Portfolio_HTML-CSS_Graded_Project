@@ -2,9 +2,9 @@
     background: radial-gradient(circle,rgba(218, 218, 218, 1) 0%, rgba(0, 213, 130, 0.45) 100%);
     border-radius: 4px;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding:  3rem 3rem;
-    
+    font-size: 1.15em;
     h2 {
         color: var(--main-brand-color-dark);
     }
@@ -26,14 +26,18 @@ form {
             background-color: var(--input-bg-color);
             color: var(--main-text-color);
         }
-
-        fieldset label {
-            display: block;
-            margin-bottom: 0.5rem;
-            
-        }
     }
-    input [type="text"] {
-        margin: 1rem 0;
+    .form_input.checkbox label {
+            margin: 0;
+        }
+    .git {
+        margin: 2rem 0;
     }
 }
+
+fieldset label, fieldset input[type="radio"] {
+            display: inline-block;
+            margin-bottom: 1rem;
+            vertical-align: middle;
+            
+        }

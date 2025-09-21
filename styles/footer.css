@@ -18,6 +18,12 @@
         text-decoration: none;
         color: var(--main-text-color)
     }
+    img.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+    }
 
  
 }
