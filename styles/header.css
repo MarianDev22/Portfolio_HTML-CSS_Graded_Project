@@ -25,6 +25,7 @@
         }
         
         li.item a {
+            padding: 0.5rem;
             text-decoration: none;
             color: var(--main-text-color);
             transition: color 0.3s ease 0.05s ;
