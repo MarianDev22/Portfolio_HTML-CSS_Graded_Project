@@ -5,19 +5,19 @@
         justify-content: center;
 
         video {
-            width: 100%;
+            width: 80%;
             max-width: 40em;
             margin: 0 auto;
             opacity: 1;
             animation-name: fade_in;
-            animation-duration: 10s;
+            animation-duration: 5s;
     }
     }
 
     .grid {
         /*border-radius: 4px;
         max-width: 300px;*/
-        margin-top: 3rem;
+        margin: 5rem 0;
         padding: 2rem;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -27,7 +27,8 @@
     }
 
     .card {
-        background: radial-gradient(circle,rgba(218, 218, 218, 1) 0%, rgba(0, 213, 130, 0.45) 100%);
+        /*background: radial-gradient(circle,rgba(218, 218, 218, 1) 0%, rgba(0, 213, 130, 0.45) 100%);*/
+        background-color: var(--input-bg-color);
         border: 1px solid var(--border-color);
         border-radius: 12px;
         height: 15em;
@@ -39,7 +40,7 @@
             text-align: center;
         }
         p {
-            text-align: center
+            text-align: justify;
         }
 
     }
