@@ -35,7 +35,7 @@
     </header>
     <main class="card">
         <h2>Contact</h2>
-         <form class="form" method="post" action="" novalidate>
+        <form class="form" method="post" action="" >
             <div class="form_input">
             <label for="name">Name</label>
             <input
@@ -46,6 +46,7 @@
             placeholder="write your name"
             required
             >
+            </div>
             <div class="form_input">
             <label for="lastname">Last Name</label>
             <input
@@ -57,55 +58,52 @@
             required
             >
             </div>
-        <div class="form_input">
-            <label for="phone">Your phone number</label>
-            <input
-            type="tel"
-            id="phone"
-            name="phone"
-            autocomplete="off"
-            placeholder="format 123-123-1234"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            required
-            >
-        </div>
+            <div class="form_input">
+                <label for="phone">Your phone number</label>
+                <input
+                type="tel"
+                id="phone"
+                name="phone"
+                autocomplete="off"
+                placeholder="format 123-123-123"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                required
+                >
+            </div>
 
-        <fieldset>
-            <legend> How did you find this web site? </legend>
-            <label for="uni"> University </label>
-            <input type="radio" name="means" id="uni" value="university" checked>
-            <label for="keep">Keepcoding kick-off</label>
-            <input type="radio" name="means" id="keep" value="keepcoding">
-            <label for="school">School</label>
-            <input type="radio" name="means" id="school" value="school">
-            <label for="github">Git Hub</label>
-            <input type="radio" name="means" id="github" value="github">
-        </fieldset>
-
-        <div>
-            <label for="git_tag">GitHub Tag:</label>
-            <input
-             type="text"
-             name="git_tag"
-             id="git_tag"
-             pattern="^@[^\s]+"
-             placeholder="@username"
-             >
-        </div>
-
-        <div class="form_input">
-            <label for="msj">Message</label>
-            <textarea class="textarea" name="msj" id="msj" placeholder="Write your message..." required maxlength="50"></textarea>
-        </div>
-
-        <div class="form_input checkbox">
-            <label for="newsletter">I want to get the Newsletter</label>
-            <input type="checkbox" name="newsletter" id="newsletter">
-        </div>
-        <div>
-            <button class="btn" type="reset">Reset</button>
-            <button class="btn" type="submit">Save</button>
-        </div>
+            <fieldset>
+                <legend> How did you find this web site? </legend>
+                <label for="uni"> University </label>
+                <input type="radio" name="means" id="uni" value="university" required>
+                <label for="keep">Keepcoding kick-off</label>
+                <input type="radio" name="means" id="keep" value="keepcoding" >
+                <label for="school">School</label>
+                <input type="radio" name="means" id="school" value="school">
+                <label for="github">Git Hub</label>
+                <input type="radio" name="means" id="github" value="github">
+            </fieldset>
+            <div>
+                <label for="git_tag">GitHub Tag:</label>
+                <input
+                type="text"
+                name="git_tag"
+                id="git_tag"
+                pattern="^@[^\s]+"
+                placeholder="@username"
+                >
+            </div>
+            <div class="form_input">
+                <label for="msj">Message</label>
+                <textarea class="textarea" name="msj" id="msj" placeholder="Write your message..." required maxlength="180"></textarea>
+            </div>
+            <div class="form_input checkbox">
+                <label for="newsletter">I want to get the Newsletter</label>
+                <input type="checkbox" name="newsletter" id="newsletter">
+            </div>
+            <div>
+                <button class="btn" type="reset">Reset</button>
+                <button class="btn" type="submit">Send</button>
+            </div>
         </form>
     </main>
     
